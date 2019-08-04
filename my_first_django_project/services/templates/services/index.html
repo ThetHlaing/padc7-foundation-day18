@@ -1,0 +1,13 @@
+{% extends 'services/base.html' %}
+
+
+{% block content %}
+TItle is {{title}}
+
+        <br/>
+        Available services : 
+        {% include "services/services.html" %}
+
+{% endblock content %}
+
+
